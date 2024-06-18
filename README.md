@@ -4,18 +4,6 @@ langchain for chunking texts, Pinecone for vector storage, and ChatGPT for gener
 
 ![chat](assets/images/screenshot.png)
 
-# GitHub Name Mapping 
-- CoreSheep - Jiufeng Li
-- Aayushtirmalle - Aayush Tirmalle,
-- Swathi1110 - Swathi Thiruppathi Kannan
-- Alagu17 - Alagumeena Thiruppathi Kannan
-
-# Email Addresses:
-jiufeng.li@stud.uni-heidelberg.de - Jiufeng Li  
-aayush.tirmalle@stud.uni-heidelberg.de - Aayush Tirmalle  
-alagumeena.thiruppathi_kannan@stud.uni-heidelberg.de - Alagumeena Thiruppathi Kannan  
-swathi.thiruppathi_kannan@stud.uni-heidelberg.de - Swathi Thiruppathi Kannan
-
 ## Table of Contents
 - [Get Started](#get-started)
 - [Dataset](#dataset)
