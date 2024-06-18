@@ -4,24 +4,30 @@ from langchain.schema import (
     HumanMessage,
     AIMessage
 )
+
 from langchain.vectorstores import Pinecone
 from datasets import load_dataset
-import datasets
 from pinecone import PodSpec
 from langchain.embeddings.openai import OpenAIEmbeddings
 from tqdm.auto import tqdm  # for progress bar
+from dotenv import load_dotenv  # Only if using python-dotenv
+
+import datasets
 import pandas as pd
 import time
 import requests
 import os
 
+# Load environment variables from .env file (if using python-dotenv)
+load_dotenv()
+
 
 class MedChatbot:
     def __init__(self):
         # Initialize API_KEYS
-        self.PINECONE_API_KEY = "27b401fd-4cb4-43cf-9fba-4d0827cc6d31"
-        self.PINECONE_ENVIRONMENT = "gcp-starter"
-        self.OPENAI_API_KEY = "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"
+        self.PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+        self.PINECONE_ENVIRONMENT = os.getenv("PINECONE_ENVIRONMENT")
+        self.OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
         # self.data_path = "jamescalam/llama-2-arxiv-papers-chunked"
         self.data_path = "../assets/data/medical_articles.json"
         self.embedding_model = "text-embedding-ada-002"

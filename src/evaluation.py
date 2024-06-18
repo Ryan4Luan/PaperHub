@@ -4,9 +4,15 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from query import *
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+from dotenv import load_dotenv  # Only if using python-dotenv
+
+# Load environment variables from .env file (if using python-dotenv)
+load_dotenv()
 
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
 embedding_model = "text-embedding-ada-002"
 embedding_model = OpenAIEmbeddings(model=embedding_model, api_key=OPENAI_API_KEY)
 
