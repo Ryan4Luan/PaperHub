@@ -1,0 +1,102 @@
+    [
+    {
+        "title": "Machine learning guided discovery of stable, spin-resolved topological insulators",
+        "authors": [
+            "Alexander C. Tyner"
+        ],
+        "summary": "Identification of a non-trivial $\\mathbb{Z}_{2}$ index in a spinful two\ndimensional insulator indicates the presence of an odd, quantized\n(pseudo)spin-resolved Chern number, $C_{s}=(C_{\\uparrow}-C_{\\downarrow})/2$.\nHowever, the statement is not biconditional. An odd spin-Chern number can\nsurvive when the familiar $\\mathbb{Z}_{2}$ index vanishes. Identification of\nsolid-state systems hosting an odd, quantized $C_{s}$ and trivial\n$\\mathbb{Z}_{2}$ index is a pressing issue due to the potential for such\ninsulators to admit band gaps optimal for experiments and quantum devices.\nNevertheless, they have proven elusive due to the computational expense\nassociated with their discovery. In this work, a neural network capable of\nidentifying the spin-Chern number is developed and used to identify the first\nsolid-state systems hosting a trivial $\\mathbb{Z}_{2}$ index and odd $C_{s}$.\nWe demonstrate the potential of one such system, Ti$_{2}$CO$_{2}$, to support\nMajorana corner modes via the superconducting proximity effect.",
+        "published": "2024-06-18T17:59:34+00:00",
+        "doi": null,
+        "pdf_link": "http://arxiv.org/pdf/2406.12850v1",
+        "arxiv_link": "http://arxiv.org/abs/2406.12850v1",
+        "categories": [
+            "cond-mat.mtrl-sci",
+            "cond-mat.mes-hall",
+            "cond-mat.str-el",
+            "cond-mat.supr-con"
+        ],
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "ChangeViT: Unleashing Plain Vision Transformers for Change Detection",
+        "authors": [
+            "Duowang Zhu",
+            "Xiaohu Huang",
+            "Haiyan Huang",
+            "Zhenfeng Shao",
+            "Qimin Cheng"
+        ],
+        "summary": "Change detection in remote sensing images is essential for tracking\nenvironmental changes on the Earth's surface. Despite the success of vision\ntransformers (ViTs) as backbones in numerous computer vision applications, they\nremain underutilized in change detection, where convolutional neural networks\n(CNNs) continue to dominate due to their powerful feature extraction\ncapabilities. In this paper, our study uncovers ViTs' unique advantage in\ndiscerning large-scale changes, a capability where CNNs fall short.\nCapitalizing on this insight, we introduce ChangeViT, a framework that adopts a\nplain ViT backbone to enhance the performance of large-scale changes. This\nframework is supplemented by a detail-capture module that generates detailed\nspatial features and a feature injector that efficiently integrates\nfine-grained spatial information into high-level semantic learning. The feature\nintegration ensures that ChangeViT excels in both detecting large-scale changes\nand capturing fine-grained details, providing comprehensive change detection\nacross diverse scales. Without bells and whistles, ChangeViT achieves\nstate-of-the-art performance on three popular high-resolution datasets (i.e.,\nLEVIR-CD, WHU-CD, and CLCD) and one low-resolution dataset (i.e., OSCD), which\nunderscores the unleashed potential of plain ViTs for change detection.\nFurthermore, thorough quantitative and qualitative analyses validate the\nefficacy of the introduced modules, solidifying the effectiveness of our\napproach. The source code is available at\nhttps://github.com/zhuduowang/ChangeViT.",
+        "published": "2024-06-18T17:59:08+00:00",
+        "doi": null,
+        "pdf_link": "http://arxiv.org/pdf/2406.12847v1",
+        "arxiv_link": "http://arxiv.org/abs/2406.12847v1",
+        "categories": [
+            "cs.CV"
+        ],
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Experts",
+        "authors": [
+            "Haoxiang Wang",
+            "Wei Xiong",
+            "Tengyang Xie",
+            "Han Zhao",
+            "Tong Zhang"
+        ],
+        "summary": "Reinforcement learning from human feedback (RLHF) has emerged as the primary\nmethod for aligning large language models (LLMs) with human preferences. The\nRLHF process typically starts by training a reward model (RM) using human\npreference data. Conventional RMs are trained on pairwise responses to the same\nuser request, with relative ratings indicating which response humans prefer.\nThe trained RM serves as a proxy for human preferences. However, due to the\nblack-box nature of RMs, their outputs lack interpretability, as humans cannot\nintuitively understand why an RM thinks a response is good or not. As RMs act\nas human preference proxies, we believe they should be human-interpretable to\nensure that their internal decision processes are consistent with human\npreferences and to prevent reward hacking in LLM alignment. To build RMs with\ninterpretable preferences, we propose a two-stage approach: i) train an\nAbsolute-Rating Multi-Objective Reward Model (ArmoRM) with multi-dimensional\nabsolute-rating data, each dimension corresponding to a human-interpretable\nobjective (e.g., honesty, verbosity, safety); ii) employ a Mixture-of-Experts\n(MoE) strategy with a gating network that automatically selects the most\nsuitable reward objectives based on the context. We efficiently trained an\nArmoRM with Llama-3 8B and a gating network consisting of a shallow MLP on top\nof the ArmoRM. Our trained model, ArmoRM-Llama3-8B, obtains state-of-the-art\nperformance on RewardBench, a benchmark evaluating RMs for language modeling.\nNotably, the performance of our model surpasses the LLM-as-a-judge method with\nGPT-4 judges by a margin, and approaches the performance of the much larger\nNemotron-4 340B reward model.",
+        "published": "2024-06-18T17:58:28+00:00",
+        "doi": null,
+        "pdf_link": "http://arxiv.org/pdf/2406.12845v1",
+        "arxiv_link": "http://arxiv.org/abs/2406.12845v1",
+        "categories": [
+            "cs.LG",
+            "cs.CL"
+        ],
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Synergizing Foundation Models and Federated Learning: A Survey",
+        "authors": [
+            "Shenghui Li",
+            "Fanghua Ye",
+            "Meng Fang",
+            "Jiaxu Zhao",
+            "Yun-Hin Chan",
+            "Edith C. -H. Ngai",
+            "Thiemo Voigt"
+        ],
+        "summary": "The recent development of Foundation Models (FMs), represented by large\nlanguage models, vision transformers, and multimodal models, has been making a\nsignificant impact on both academia and industry. Compared with small-scale\nmodels, FMs have a much stronger demand for high-volume data during the\npre-training phase. Although general FMs can be pre-trained on data collected\nfrom open sources such as the Internet, domain-specific FMs need proprietary\ndata, posing a practical challenge regarding the amount of data available due\nto privacy concerns. Federated Learning (FL) is a collaborative learning\nparadigm that breaks the barrier of data availability from different\nparticipants. Therefore, it provides a promising solution to customize and\nadapt FMs to a wide range of domain-specific tasks using distributed datasets\nwhilst preserving privacy. This survey paper discusses the potentials and\nchallenges of synergizing FL and FMs and summarizes core techniques, future\ndirections, and applications. A periodically updated paper collection on FM-FL\nis available at https://github.com/lishenghui/awesome-fm-fl.",
+        "published": "2024-06-18T17:58:09+00:00",
+        "doi": null,
+        "pdf_link": "http://arxiv.org/pdf/2406.12844v1",
+        "arxiv_link": "http://arxiv.org/abs/2406.12844v1",
+        "categories": [
+            "cs.LG",
+            "cs.AI"
+        ],
+        "journal_ref": "N/A"
+    },
+    {
+        "title": "Can Go AIs be adversarially robust?",
+        "authors": [
+            "Tom Tseng",
+            "Euan McLean",
+            "Kellin Pelrine",
+            "Tony T. Wang",
+            "Adam Gleave"
+        ],
+        "summary": "Prior work found that superhuman Go AIs like KataGo can be defeated by simple\nadversarial strategies. In this paper, we study if simple defenses can improve\nKataGo's worst-case performance. We test three natural defenses: adversarial\ntraining on hand-constructed positions, iterated adversarial training, and\nchanging the network architecture. We find that some of these defenses are able\nto protect against previously discovered attacks. Unfortunately, we also find\nthat none of these defenses are able to withstand adaptive attacks. In\nparticular, we are able to train new adversaries that reliably defeat our\ndefended agents by causing them to blunder in ways humans would not. Our\nresults suggest that building robust AI systems is challenging even in narrow\ndomains such as Go. For interactive examples of attacks and a link to our\ncodebase, see https://goattack.far.ai.",
+        "published": "2024-06-18T17:57:49+00:00",
+        "doi": null,
+        "pdf_link": "http://arxiv.org/pdf/2406.12843v1",
+        "arxiv_link": "http://arxiv.org/abs/2406.12843v1",
+        "categories": [
+            "cs.LG",
+            "cs.AI",
+            "stat.ML"
+        ],
+        "journal_ref": "N/A"
+    }
+]
